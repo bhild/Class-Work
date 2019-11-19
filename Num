@@ -1,0 +1,30 @@
+package cw;
+//********************************************************************
+//  Num.java       Author: Lewis/Loftus
+//
+//  Represents a single integer as an object.
+//********************************************************************
+
+public class Num
+{
+   private int value;
+
+   public Num (int update)
+   {
+      value = update;
+   }
+
+   public void setValue (int update)
+   {
+      value = update;
+   }
+
+   public String toString ()
+   {
+      return value + "";
+   }
+
+   public int getValue() {
+	   return value;
+   }
+}
